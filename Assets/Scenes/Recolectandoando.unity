@@ -12086,10 +12086,10 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  intensityFromLight: 0
+  intensityFromLight: 1
   intensityModeAdvanced: 0
-  intensityInside: 1
-  intensityOutside: 1
+  intensityInside: 2
+  intensityOutside: 2
   blendingMode: 1
   spotAngleFromLight: 1
   spotAngle: 80
@@ -12105,7 +12105,7 @@ MonoBehaviour:
   attenuationEquation: 1
   attenuationCustomBlending: 0.5
   fallOffStart: 0
-  fallOffEnd: 10
+  fallOffEnd: 5
   depthBlendDistance: 2
   cameraClippingDistance: 0.5
   glareFrontal: 0
@@ -12137,8 +12137,8 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.9811321, g: 0.925386, b: 0.80989677, a: 1}
-  m_Intensity: 5
-  m_Range: 10
+  m_Intensity: 2
+  m_Range: 5
   m_SpotAngle: 80
   m_InnerSpotAngle: 0
   m_CookieSize: 10
